@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 
-# 색상 범위 - HSV - 색상(Hue), 채도(Saturation), 명도(Value)
+# 색상 범위 - HSV - 색상(Hue),채도(Saturation),명도(Value)
 lower_orange = (8, 50, 50)
 upper_orange = (20, 255, 255)
 
