@@ -49,7 +49,7 @@ for i in range(len(file_list_read)):
 
     blur_img = gaussian_blur(gray_img, 3)  # Blur 효과
 
-    canny_img = canny(blur_img, 70, 210)  # Canny edge 알고리즘
+    canny_img = canny(blur_img, 50, 150)  # Canny edge 알고리즘
 
     cv2.imshow('result', canny_img)  # Canny 이미지 출력
     cv2.waitKey(100)
