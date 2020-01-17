@@ -20,7 +20,7 @@ def region_of_interest(img, vertices, color3=(255, 255, 255), color1=255):  # RO
     return ROI_image
 
 
-def mark_img(img, blue_threshold=180, green_threshold=180, red_threshold=180):  # 흰색 차선 찾기
+def mark_img(img, blue_threshold=150, green_threshold=150, red_threshold=150):  # 흰색 차선 찾기
 
     #  BGR 제한 값
     bgr_threshold = [blue_threshold, green_threshold, red_threshold]
