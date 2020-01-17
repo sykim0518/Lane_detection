@@ -53,5 +53,4 @@ BGR 색공간을 이용한 Lane detection
 >### 📌 **Threshold**
 &nbsp;&nbsp; BGR 값이 일정 Threshold 값 미만이면 (150,150,150) 검은색으로 채운다
 
-
-<img width="400" alt="Lane" src="https://user-images.githubusercontent.com/52990642/72595074-5edc1200-394c-11ea-8120-5b70bd3d7421.PNG">
+<img width="500" alt="결과" src="https://user-images.githubusercontent.com/52990642/72599795-b763dd00-3955-11ea-9d6e-b7616c173058.PNG">
