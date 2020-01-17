@@ -6,7 +6,7 @@ import numpy as np
 lower_orange = (8, 50, 50)
 upper_orange = (20, 255, 255)
 
-lower_white = (0, 0, 210)
+lower_white = (0, 0, 180)
 upper_white = (255, 255, 255)
 
 def region_of_interest(img, vertices, color3=(255, 255, 255), color1=255):  # ROI 셋팅
@@ -87,7 +87,7 @@ for i in range(len(file_list_read)):
 
     cv2.imshow('result', line_image)  # 흰색 차선 추출 결과 출력
     cv2.imshow('original', image)  # 이미지 출력
-    cv2.waitKey(100)
+    cv2.waitKey(0)
 
 
 
