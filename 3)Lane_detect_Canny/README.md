@@ -3,7 +3,7 @@ Canny 알고리즘을 이용한 Lane detection
 &nbsp;&nbsp; 
 >### 📌 **목표**
 
-&nbsp;&nbsp; color 이미지의 ROI를 설정하고, edge를 검출하여 출력한다
+&nbsp;&nbsp; color 이미지의 ROI를 설정하고, canny 알고리즘을 이용하여 edge를 출력한다
 
 &nbsp;&nbsp;
 >### 📌 **ROI 설정**
@@ -36,4 +36,8 @@ Canny 알고리즘을 이용한 Lane detection
 - 약한 edge가 진짜 edge인지 확인하기 위해서 강한 edge와 연결이 되어 있으면 edge로 판단하고, 그러지 않으면 제거한다
 
 &nbsp;&nbsp;
+
+>### 📌 **Result**
+<img width="500" alt="결과물" src="https://user-images.githubusercontent.com/52990642/72678966-faf14f00-3aed-11ea-90dd-508cbfc59ad5.PNG">
+
 
